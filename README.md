@@ -1,5 +1,7 @@
 # DubboDemo
-本文档是用来测试dubbo使用的项目，基于idea构建，包括三个module
+dubbo采用全spring配置方式，透明化接入应用，对应用没有任何api侵入，只需要spring加载dubbo的配置即可，dubbo是基于spring的schema扩展进行加载
+
+本工程是用来测试dubbo使用的项目，基于idea构建，包括三个module
 1.公共模块dubboApi
 2.服务提供方dubboProvider
 3.服务消费方dubboConsumer
